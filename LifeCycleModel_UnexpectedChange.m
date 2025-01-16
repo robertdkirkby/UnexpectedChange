@@ -183,7 +183,7 @@ subplot(4,1,2); plot(1:1:Params.J,AgeConditionalStats.aftertaxearnings.Mean)
 title('Life Cycle Profile: After-Tax Labor Earnings ((1-tau) w kappa_j h)')
 subplot(4,1,3); plot(1:1:Params.J,AgeConditionalStats.assets.Mean)
 title('Life Cycle Profile: Assets (a)')
-subplot(4,1,2); plot(1:1:Params.J,AgeConditionalStats.taxespaid.Mean)
+subplot(4,1,4); plot(1:1:Params.J,AgeConditionalStats.taxespaid.Mean)
 title('Life Cycle Profile: Taxes Paid (tau w kappa_j h)')
 % Note: taxes are only paid from ages 50+
 
